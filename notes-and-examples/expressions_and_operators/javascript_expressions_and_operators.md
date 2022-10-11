@@ -109,34 +109,85 @@ However, it only actually declares the variable `z`.
 
 ## BigInt Operators
 
-TODO
+Most operators that can be used between numbers can be used between BigInt values
+as well.
+
+BigInts and numbers are not mutually replaceable — you cannot mix them in calculations.
+You can compare BigInts with numbers.
+
+This is because BigInt is neither a subset nor a superset of numbers.
 
 ## String Operators
 
-TODO
+The concatenation operator (+) concatenates two string values together, returning another
+string that is the union of the two operand strings.
 
 ## Comma Operator
 
-TODO
+The comma operator evaluates both of its operands and returns the value of the last operand.
+This operator is primarily used inside a for loop, to allow multiple variables to be updated
+each time through the loop. It is regarded bad style to use it elsewhere when it is not
+necessary.
+
+```
+const x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const a = [x, x, x, x, x];
+
+for (let i = 0, j = 9; i <= j; i++, j--) {
+    console.log(`a[${i}][${j}]= ${a[i][j]}`);
+}
+```
 
 ## Delete Operator
 
-TODO
+The `delete` operator deletes an object's property.
+
+The syntax is:
+```
+delete object.property;
+delete object[propertyKey];
+delete objectName[index];
+```
+
+where `object` is the name of an object, `property` is an existing property, and `propertyKey` is a
+string or symbol referring to an existing property.
+
+The `delete` operator returns `true` is the operation is possible; it returns `false` if the
+operation is not possible.
 
 ## Typeof Operator
 
-TODO
+The `typeof` operator returns a string indicating the type of the unevaluated operand.
 
 ## Void Operator
 
-TODO
+The `void` operator is used in either of the following ways:
+```
+void (expression)
+void expression
+```
+
+The `void` operator specifies an expression to be evaluated without returning a value. It is good
+style to use the optional parentheses.
 
 ## In Operator
 
-TODO
+The `in` operator returns `true` if the specified property is in the specified object.
+The syntax is:
+
+```
+propNameOrNumber in objectName
+```
+
+where `propNameOrNumber` is a string, numeric, or symbol expression representing a property name
+or array index, and `objectName` is the name of an object.
 
 ## Instanceof Operator
 
-TODO
+The `instanceof` operator returns `true` if the specified object is of the specified object type.
+The syntax is:
 
+```
+objectName instanceof objectType
+```
 

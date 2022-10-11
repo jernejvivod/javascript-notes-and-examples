@@ -42,9 +42,9 @@
 
 # 6. Expressions and Operators (2022/10/10 - 2022/10/16)
 
-- [ ] Notes
+- [x] Notes
 - [ ] Sample Programs
-- [ ] Flash Cards
+- [x] Flash Cards
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
@@ -114,7 +114,7 @@
 
 # 15. Iterators and Generators (2022/10/10 - 2022/10/16)
 
-- [ ] Notes
+- [x] Notes
 - [ ] Sample Programs
 - [x] Flash Cards
 - [ ] Practice Problems
@@ -136,23 +136,15 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 18. JavaScript Language Overview (2022/10/10 - 2022/10/16)
+# 18. Equality Comparison and Sameness (2022/10/10 - 2022/10/16)
 
-- [ ] Notes
-- [ ] Sample Programs
-- [ ] Flash Cards
-- [ ] Practice Problems
-- [ ] Practice Schedule
-
-# 19. Equality Comparison and Sameness (2022/10/10 - 2022/10/16)
-
-- [ ] Notes
+- [x] Notes
 - [ ] Sample Programs
 - [x] Flash Cards
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 20. Closures (2022/11/28 - 2022/12/4)
+# 19. Closures (2022/11/28 - 2022/12/4)
 
 - [ ] Notes
 - [ ] Sample Programs
@@ -160,7 +152,7 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 21. Inheritance and the Prototype Chain (2022/12/2 - 2022/12/31)
+# 20. Inheritance and the Prototype Chain (2022/12/2 - 2022/12/31)
 
 - [ ] Notes
 - [ ] Sample Programs
@@ -168,7 +160,7 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 22. Strict Mode (2022/10/24 - 2022/10/30)
+# 21. Strict Mode (2022/10/24 - 2022/10/30)
 
 - [ ] Notes
 - [ ] Sample Programs
@@ -176,7 +168,7 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 23. JavaScript Typed Arrays (2022/10/24 - 2022/10/30)
+# 22. JavaScript Typed Arrays (2022/10/24 - 2022/10/30)
 
 - [ ] Notes
 - [ ] Sample Programs
@@ -184,7 +176,7 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 24. Memory Management (2022/11/28 - 2022/12/4)
+# 23. Memory Management (2022/11/28 - 2022/12/4)
 
 - [ ] Notes
 - [ ] Sample Programs
@@ -192,7 +184,7 @@
 - [ ] Practice Problems
 - [ ] Practice Schedule
 
-# 25. Concurrency Model and Event Loop (2022/12/2 - 2022/12/8)
+# 24. Concurrency Model and Event Loop (2022/12/2 - 2022/12/8)
 
 - [ ] Notes
 - [ ] Sample Programs
